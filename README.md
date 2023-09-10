@@ -25,7 +25,7 @@ Each device on an Ethernet network is endowed with a distinctive MAC address, en
 
 The Reduced Media-Independent Interface (RMII) is used to interface Ethernet IP core on FPGA with the Ethernet PHY chip. 
 
-The Media Access Layer undertakes the conversion of data packets into a continuous data stream, preparing it for transmission. Subsequently, the Physical Layer carries out the transformation of this data stream into discernible electrical signals.
+The Media Access Layer undertakes the conversion of data packets into a continuous data stream, preparing it for transmission. Subsequently, the Physical Layer (PHY) carries out the transformation of this data stream into discernible electrical signals that goes through the RJ45 connector.
 
 ![Local Image](./pics/Ethernet.png)
 
